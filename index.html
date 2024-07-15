@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-black">
+    <!-- <div class="load">
+        <div class="loader"></div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-5" href="#">
+            <img src="images/logo.png" class="w-25" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item" id="search">
+                <span class="nav-link" href="">search</span>
+              </li>
+              <li class="nav-item" id="categ">
+                <span class="nav-link" href="">categories</span>
+              </li>
+              <li class="nav-item" id="area">
+                <span class="nav-link" href="">Area</span>
+              </li>
+              <li class="nav-item" id="gred">
+                <span class="nav-link" href="">Ingredients</span>
+              </li>
+              <li class="nav-item" id="contc">
+                <span class="nav-link" href="">Contact us</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+         <!-- <div class="nav">
+            <div class="nav-side">
+                <div>
+                  <span class="section pt-3" href="">Search</span>
+                  <span class="section" href="">Categories</span>
+                  <span class="section" href="">Area</span>
+                  <span class="section" href="">Ingredients</span>
+                  <span class="section" href="">Contact Us</span>
+                </div>
+                <div class="text-white ps-3">
+                   <span class="fa-brands fa-facebook"></span>
+                   <span class="fa-brands fa-twitter"></span>
+                   <span class="fa-solid fa-globe"></span>
+                   <p>Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+           </div>
+           <div class="control">
+              <div class="image w-75 mx-auto pt-3">
+               <img src="images/logo.png" class="w-100" alt="">
+              </div>
+              <div class="op-cls">
+                <i class="fa-solid fa-x" id="close"></i> 
+                <i class="fa-solid fa-list-dots" id="open"></i>
+              </div>
+              <div class="icons pb-3">
+                 <i class="fa-solid fa-globe"></i>
+                 <i class="fa-solid fa-share-alt"></i>
+                 <i></i>
+              </div>
+           </div>
+         </div> -->
+         <div class="search py-5">
+            <div class="row g-3 inputs">
+                <div class="col-6">          
+                    <input id="sName" class="form-control" type="text" placeholder="Search By Name" aria-label=".form-control-lg example">
+                </div>
+                <div class="col-6">          
+                    <input id="sLetter" class="form-control" type="text" placeholder="Search By First Letter" aria-label=".form-control-lg example">
+                </div>
+         </div>
+         </div> 
+         <div class="row g-4 container mx-auto py-5" id="searchNRow">
+            <!-- <div class="col-3">
+                 <div class="image">
+                    <img src="images/logo.png" class="w-100" alt="">
+                    <div class="layer">
+                        <h2>meal's name</h2>
+                    </div>
+                 </div>
+            </div> -->
+         </div>
+         <div class="row g-4 container mx-auto py-5" id="searchLRow">
+            <!-- <div class="col-3">
+                 <div class="image">
+                    <img src="images/logo.png" class="w-100" alt="">
+                    <div class="layer">
+                        <h2>meal's name</h2>
+                    </div>
+                 </div>
+            </div> -->
+         </div>
+         <div class="row g-4 container mx-auto py-5" id="filterCgRow">
+            <!-- <div class="col-3">
+                 <div class="image">
+                    <img src="images/logo.png" class="w-100" alt="">
+                    <div class="layer">
+                        <h2>meal's name</h2>
+                    </div>
+                 </div>
+            </div> -->
+         </div>
+         <div class="row g-4 container mx-auto py-5" id="startRow">
+            <!-- <div class="col-3">
+                 <div class="image">
+                    <img src="images/logo.png" class="w-100" alt="">
+                    <div class="layer">
+                        <h2>meal's name</h2>
+                    </div>
+                 </div>
+            </div> -->
+         </div>
+         <div class="row g-4 container mx-auto py-5" id="c-row">
+            <!-- <div class="col-3">
+                 <div class="image">
+                    <img src="images/logo.png" class="w-100" alt="">
+                    <div class="c-layer">
+                        <h2>meal's name</h2>
+                        <p class="fs-6 fw-semibold">meal's desc</p>
+                    </div>
+                 </div>
+            </div> -->
+            </div>
+            <div class="row g-4 container mx-auto py-5" id="i-row">
+                <!-- <div class="col-3 text-center text-white">
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                            <h3>meal's name</h3>
+                            <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     </div> -->
+                </div>
+             <div class="row g-4 container mx-auto py-5" id="a-row">
+                <!-- <div class="col-3 text-center text-white">
+                    <i class="fa-solid fa-house-laptop"></i>
+                            <h4>country's name</h4>
+                     </div> -->
+                </div>
+                <div id="contact" class="py-5">
+                    <div class="row g-3 inputs">
+                        <div class="col-6">          
+                            <input id="userName" class="form-control" type="text" placeholder="Enter your Name" aria-label=".form-control-lg example">
+                        </div>
+                        <div class="col-6">          
+                             <div class="row">
+                                <div class="col-12 pb-1">
+                                    <input id="userEmail" class="form-control" type="text" placeholder="Enter your Email" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="col-12 text-center" id="v-email">
+                                    Email not valid *exemple@yyy.zzz
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-6">          
+                            <div class="row">
+                                <div class="col-12 pb-1">
+                                    <input id="userPhone" class="form-control" type="text" placeholder="Enter your phone" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="col-12 text-center" id="v-phone">
+                                    Enter valid phone number
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-6">          
+                            <input class="form-control" type="number" placeholder="Enter your age" aria-label=".form-control-lg example">
+                        </div>
+                        <div class="col-6">          
+                            <div class="row">
+                                <div class="col-12 pb-1">
+                                    <input id="userpass" class="form-control" type="password" placeholder="Enter your password" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="col-12 text-center" id="v-pass">
+                                    Enter valid password *Minimum eight characters, at least one letter and one number:*
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-6">          
+                            <div class="row">
+                                <div class="col-12 pb-1">
+                                    <input id="rePassword" class="form-control" type="password" placeholder="rePassword" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="col-12 text-center" id="v-repass">
+                                    Enter valid repassword
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-12 text-center pt-2">
+                            <button id="btn" class="btn btn-danger" type="submit" 
+                            disabled onclick="newUser()">submit</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="row g-4 container mx-auto py-5 text-white" id="k-row">
+                    <!-- <div class="col-4">
+                        <div class="image">
+                            <img src="images/logo.png" class="w-100" alt="">
+                        </div>
+                        <h2>aaaaaaaaaaaa</h2>
+                    </div>
+                    <div class="col-8">
+                        <h2>Instructions</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae eaque sunt nobis ratione exercitationem aut laboriosam! Dolorem aliquam neque ullam, provident, perspiciatis porro eos aperiam, ab sint vel placeat repellendus?</p>
+                        <h2>Area :</h2>
+                        <h2>category :</h2>
+                        <h2>Recipes :</h2>
+                        <h2>Tags :</h2>
+                        <a href="" target="_blank" class="btn btn-success">Source</a>
+                        <a class="btn btn-danger">Youtube</a>
+                    </div> -->
+                </div>
+         <script src="js/jquery-3.7.1.min.js"></script>
+         <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
